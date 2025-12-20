@@ -5,18 +5,22 @@
   font-family: 'Poppins', sans-serif;
 }
 .hero {
-  height: 60vh;
-  background: linear-gradient(135deg, #1e3c72,#2a5298);
+  min-height: 70vh;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
   color: white;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 40px;
+  padding: 40px 20px;
 }
-
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 15px;
+}
+.hero-text {
+  margin-bottom: 30px;
 }
 
 .hero p {
@@ -30,12 +34,10 @@
   width: 90px;
 }
 .intro {
-  max-width: 800px;
-  margin: 40px auto;
+  max-width: 850px;
   font-size: 1.1rem;
-  text-align: center;
-  border-radius: 20px;
-  color: #FFFFFF;
+  line-height: 1.6;
+  opacity: 0.95;
 }
 
 body {
