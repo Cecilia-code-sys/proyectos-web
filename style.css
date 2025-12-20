@@ -24,6 +24,7 @@
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 15px;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 .hero-text {
   margin-bottom: 30px;
@@ -31,7 +32,7 @@
 
 .hero p {
   font-size: 1.3rem;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 .escudo {
   position: absolute;
