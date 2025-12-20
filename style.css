@@ -31,7 +31,7 @@
   position: absolute;
   top: 20px;
   right: 20px;
-  width: 90px;
+  width: 60px;
   border-radius: 12px;          /* bordes redondeados */
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35); /* max shadow */
   background-color: white;      /* por si el png es transparente */
@@ -121,4 +121,11 @@ footer {
   padding: 1.5rem;
   background-color: #eaeaea;
   font-size: 0.9rem;
+}
+@media (max-width: 768px) {
+  .escudo {
+    width: 45px;
+    top: 10px;
+    right: 10px;
+  }
 }
