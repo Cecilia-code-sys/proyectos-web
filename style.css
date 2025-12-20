@@ -24,6 +24,19 @@
   font-size: 1.3rem;
   opacity: 0.9;
 }
+.escudo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 90px;
+}
+.intro {
+  max-width: 800px;
+  margin: 40px auto;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #444;
+}
 
 body {
   background-color: #f6f7fb;
@@ -61,16 +74,17 @@ header p {
 }
 
 .card {
-  background-color: white;
-  padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-  transition: transform 0.3s ease;
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.3s;
 }
 
 .card:hover {
   transform: translateY(-5px);
 }
+
 
 .card h3 {
   font-size: 1.2rem;
