@@ -4,6 +4,26 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+.hero {
+  height: 60vh;
+  background: linear-gradient(135deg, #1e3c72,#2a5298);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  opacity: 0.9;
+}
 
 body {
   background-color: #f6f7fb;
