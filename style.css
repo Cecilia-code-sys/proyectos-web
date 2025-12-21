@@ -128,23 +128,33 @@ header p {
 }
 
 .footer {
-  background-color: #0f2027;
-  color: rgba(255, 255, 255, 0.9);
+  background: linear-gradient(
+    135deg,
+    #0f2027,
+    #203a43
+  );
+  color: rgba(255, 255, 255, 0.95);
   text-align: center;
-  padding: 30px 15px;
-  font-size: 0.95rem;
+
+  padding: 35px 20px;
   margin-top: 60px;
-  border-top: 1px solid rgba(255,255,255,0.1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
 }
 
 .footer-profes {
   font-weight: 500;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
+  max-width: 900px;
 }
 
 .footer-proyectos {
   font-size: 0.85rem;
-  opacity: 0.8;
+  opacity: 0.85;
   letter-spacing: 0.5px;
 }
 
