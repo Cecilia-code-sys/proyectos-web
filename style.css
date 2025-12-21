@@ -127,12 +127,27 @@ header p {
   background-color: #554eea;
 }
 
-footer {
+.footer {
+  background-color: #0f2027;
+  color: rgba(255, 255, 255, 0.9);
   text-align: center;
-  padding: 1.5rem;
-  background-color: #eaeaea;
-  font-size: 0.9rem;
+  padding: 30px 15px;
+  font-size: 0.95rem;
+  margin-top: 60px;
+  border-top: 1px solid rgba(255,255,255,0.1);
 }
+
+.footer-profes {
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.footer-proyectos {
+  font-size: 0.85rem;
+  opacity: 0.8;
+  letter-spacing: 0.5px;
+}
+
 @media (max-width: 768px) {
   .escudo {
     width: 45px;
@@ -140,3 +155,32 @@ footer {
     right: 10px;
   }
 }
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-text {
+  animation: fadeUp 1.2s ease-out forwards;
+}
+
+.intro {
+  animation: fadeUp 1.4s ease-out forwards;
+}
+.card {
+  opacity: 0;
+  animation: fadeUp 0.8s ease-out forwards;
+}
+
+.card:nth-child(1) { animation-delay: 0.2s; }
+.card:nth-child(2) { animation-delay: 0.35s; }
+.card:nth-child(3) { animation-delay: 0.5s; }
+.card:nth-child(4) { animation-delay: 0.65s; }
+.card:nth-child(5) { animation-delay: 0.8s; }
+
