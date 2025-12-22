@@ -1,0 +1,189 @@
+/* ======== ESTILOS GENERALES ======== */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+:root {
+  --azul-oscuro: #1e2a44;
+  --azul-suave: #4a6fa5;
+  --gris-claro: #f2f5fa;
+  --blanco: #ffffff;
+  --gris-medio: #dce3ec;
+  --celeste-metal: #88b4d9;
+  --sombra: rgba(0, 0, 0, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: var(--gris-claro);
+  color: #222;
+  line-height: 1.6;
+}
+
+/* ======== HEADER ======== */
+
+header {
+  background: var(--azul-oscuro);
+  color: var(--blanco);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 5px 15px var(--sombra);
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+header nav ul li a {
+  color: var(--blanco);
+  text-decoration: none;
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: var(--celeste-metal);
+  transform: scale(1.08);
+}
+
+/* ======== SECCIONES ======== */
+
+main {
+  width: 95%;
+  max-width: 1100px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.card {
+  background: var(--blanco);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px var(--sombra);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.subcard {
+  background: var(--gris-medio);
+  border-left: 5px solid var(--azul-suave);
+  padding: 1.5rem;
+  margin-top: 1.2rem;
+  border-radius: 10px;
+  text-align: left;
+}
+
+/* ======== TITULOS ======== */
+
+h1, h2, h3, h4 {
+  color: var(--azul-oscuro);
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+h1 {
+  font-size: 1.9rem;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  border-bottom: 2px solid var(--celeste-metal);
+  display: inline-block;
+  padding-bottom: 4px;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: var(--azul-suave);
+}
+
+h4 {
+  font-size: 1.05rem;
+  color: #345;
+}
+
+/* ======== TEXTO ======== */
+
+p {
+  font-size: 1rem;
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: disc inside;
+  margin-left: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* ======== FOOTER ======== */
+
+footer {
+  background: var(--azul-oscuro);
+  color: var(--blanco);
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  letter-spacing: 0.3px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* ======== RESPONSIVE ======== */
+
+@media (max-width: 768px) {
+  header nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  main {
+    width: 90%;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+}
