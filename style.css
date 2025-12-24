@@ -104,3 +104,10 @@ body {
   font-size: 0.85rem;
   opacity: 0.85;
 }
+.escudo {
+  width: 120px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+
