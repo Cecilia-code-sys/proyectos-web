@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Proyecto: Desinterés en la Participación Democrática</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">PI</div>
+        <div>
+          <h1>Desinterés en la Participación Democrática</h1>
+          <p class="muted">Proyecto de investigación — Pestrin Aymará &amp; Mastrogiorgio Mateo</p>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="index.html" class="active">Inicio</a>
+        <a href="introduccion.html">Introducción</a>
+        <a href="marco.html">Marco teórico</a>
+        <a href="metodologia.html">Metodología</a>
+        <a href="resultados.html">Resultados</a>
+        <a href="conclusiones.html">Conclusiones</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="principal">
+      <div class="principal-text">
+        <h2>¿Existe el desinterés en la participación democrática?</h2>
+        <p>Proyecto que analiza causas, manifestaciones y propuestas para enfrentar la apatía política en La Plata (16–65 años). Incluye encuesta y entrevistas semiestructuradas.</p>
+        <div class="columna-boton">
+          <a class="boton" href="resultados.html">Ver resultados y gráficos</a>
+        </div>
+      </div>
+      <div class="principal-image">
+        <img src="https://mckinnon.co/_next/image?url=https://a-ap.storyblok.com/f/3001038/1056x592/7980705e25/donate.png/m/2112x1188/filters:format(webp)&w=3840&q=100" alt="Imagen tema civic" class="image-placeholder"/>
+      </div>
+    </section>
+
+    <section class="cuadros">
+      <article class="cuadro">
+        <h3>Hipótesis</h3>
+        <p>El desinterés se vincula con: desconfianza institucional, baja eficacia percibida y déficit en educación cívica/mediática.</p>
+        <a href="introduccion.html" class="leermas">Leer más →</a>
+      </article>
+
+      <article class="cuadro">
+        <h3>Metodología</h3>
+        <p>Enfoque mixto: encuesta (n=55 en muestra escolar+adultos), entrevistas semiestructuradas y análisis documental.</p>
+        <a href="metodologia.html" class="leermas">Leer metodología →</a>
+      </article>
+
+      <article class="cuadro">
+        <h3>Resultados</h3>
+        <p>Alta desconfianza institucional; participación electoral presente pero limitada; activismo digital en aumento.</p>
+        <a href="resultados.html" class="leermas">Ver gráficos →</a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Proyecto creado para uso académico. Profesor: Pamela Ferroni. Instituto José Manuel Estrada.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
